@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    background-color: #f8f9fa;
+}
+.menu-area{
+    position: static;
+    
+}
+.product-item {
+    margin: 10px; /* ajusta el margen segun sea necesario */
+    text-align: center; /* centra contenido */
+}
+.mega-area{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #F5F5F5;
+}
+
+.dropdown-menu img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.dropdown-menu {
+    z-index: 1050; /* ajusta segun sea necesario */
+}
+
+
+.icon{
+    font-size: 55px;
+}
+
+.product-item {
+    text-align: center; /* centra contenido */
+    margin-bottom: 20px; /* espaciado entre elementos*/
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* permite que elementos bajen a nueva fila si no caben*/
+    gap: 0; /* elimina los espacios entre elementos */
+}
+
+.col-md-4 {
+    flex: 1 0 calc(100% / 4); /* cambia el divisor para controlar las columnas por fila */
+    max-width: calc(100% / 4); /* calcula columna para asi tener el ancho correcto */
+    box-sizing: border-box; /* border box */
+    margin: 0; 
+}
+
+.product-item {
+    margin: 0; /* elimina margenes  */
+    text-align: center; /* centra el contenido */
+}
+
+.tools-item a.custom-link {
+    text-decoration: none; /* eliminar subrayado */
+    color: inherit;        /* usa color del elemento padre */
+  }
+  
+  .tools-item a.custom-link:hover {
+    color: #ff0000; /* color al pasar cursor */
+  }
+
+  
+ 
+/*noticias toyota*/
+.news-layout {
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
+}
+
+.news-main-card {
+  flex: 2;
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  min-height: 220px;
+}
+
+.news-main-img {
+  height: 180px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.news-main-text h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.news-main-text a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.news-date {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.news-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.news-side-card {
+  display: flex;
+  gap: 12px;
+  background-color: #f8f9fa; /* opcional, solo si quieres un fondo claro */
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 12px;
+  align-items: center;
+}
+
+.news-side-img {
+  width: 200px; /* o el tamaño que quieras */
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+
+.news-side-card p {
+  font-weight: 700;
+  margin: 0 0 5px 0;
+  font-size: 0.9rem;
+}
+
+.news-side-card a {
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.news-side-card .news-date {
+  margin-top: 8px;
+  font-size: 0.75rem;
+}
+
+.news-btn {
+  font-weight: 700;
+  box-shadow: 0 0 10px #ddd;
+}
+/*seguro toyota */
+.seguro-toyota {
+  background-image: url('imagenes/toyotabck.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 300px; /* Ajusta la altura según necesidad */
+  padding: 60px 20px;
+}
+
+/* cracteristicas*/
+.caracteristicas {
+    padding: 80px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.caracteristicas h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 60px;
+}
+.caracteristicas .cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.caracteristicas .card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+    width: 300px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+.caracteristicas .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+.caracteristicas .card img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caracteristicas .card h4 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+.caracteristicas .card p {
+    font-size: 1rem;
+    color: #777;
+}
+
+  /* footer toyota */
+  .footer-toyota {
+  background-color: #121212;
+  font-size: 0.9rem;
+}
+
+.footer-toyota a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-toyota a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-toyota h6 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-toyota img {
+  filter: brightness(1);
+}
+
